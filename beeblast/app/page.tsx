@@ -53,7 +53,7 @@ const LandingPage = () => {
             <p className="text-4xl font-bold text-white tracking-wider">COMING SOON</p>
           </div>
           <div className="flex space-x-6 mt-8">
-            <a href="#" className="text-white hover:text-yellow-200">
+            <a href="https://x.com/BeeBlastt" className="text-white hover:text-yellow-200">
               <Twitter size={24} />
             </a>
             {/* <a href="#" className="text-white hover:text-yellow-200">

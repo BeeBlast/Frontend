@@ -1,6 +1,9 @@
+"use client";
 import React from 'react';
-import {  Twitter } from 'lucide-react';
+import Image from 'next/image';
+import { Twitter } from 'lucide-react';
 import jungleImage from './2.jpg';
+import beeblast from './beee1.png';
 
 const LandingPage = () => {
   return (
@@ -14,7 +17,7 @@ const LandingPage = () => {
       <div className="relative z-20">
         <nav className="flex justify-between items-center p-4">
           <div className="text-2xl font-bold text-white">
-            <img src="/api/placeholder/150/50" alt="Bee Blast Logo" className="h-8" />
+            <Image src={beeblast} alt="Bee Blast Logo" width={70} height={70} />
           </div>
           <div className="flex space-x-6 text-white">
             <a href="#" className="hover:opacity-80">Our Games</a>
@@ -34,9 +37,18 @@ const LandingPage = () => {
         </nav>
 
         <div className="min-h-[calc(100vh-80px)] flex flex-col items-center justify-center space-y-8">
-          <h1 className="text-7xl font-bold text-yellow-400 filter drop-shadow-lg">
-            BEE BLAST
-          </h1>
+            <h1 
+              className="text-7xl font-bold text-yellow-400 filter drop-shadow-lg" 
+              style={{
+              fontFamily: "'Handjet', cursive",
+              fontWeight: "bold",
+              fontOpticalSizing: "auto",
+              fontStyle: "normal",
+              fontVariationSettings: "'ELGR' 1, 'ELSH' 2"
+              }}
+            >
+              BEE BLAST
+            </h1>
           <div className="bg-black/50 px-8 py-4 rounded-xl">
             <p className="text-4xl font-bold text-white tracking-wider">COMING SOON</p>
           </div>

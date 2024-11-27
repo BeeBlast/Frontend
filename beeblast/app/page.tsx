@@ -1,5 +1,5 @@
 import React from 'react';
-import { Discord, Twitter } from 'lucide-react';
+import {  Twitter } from 'lucide-react';
 import jungleImage from './2.jpg';
 
 const LandingPage = () => {
